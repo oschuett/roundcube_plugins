@@ -18,7 +18,7 @@ class mathjax extends rcube_plugin
 						extensions: ["tex2jax.js"],
 						jax: ["input/TeX", "output/HTML-CSS"],
 						tex2jax: {
-						skipTags: ["<pre>"], 
+						skipTags: ["<pre>"],
 						inlineMath: [ ["$","$"], ["\\\\(","\\\\)"] ],
 						displayMath: [ ["$$","$$"], ["\\\\[","\\\\]"] ],
 						processEscapes: true
